@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<ctime>
 using namespace std;
 
@@ -6,7 +6,7 @@ void main()
 {
 	setlocale(LC_ALL, "ru");
 	//////////////////////////////
-	/// ÂÛÂÎÄ ÓÍÈÊÀËÜÍÛÕ ×ÈÑÅË ///
+	/// Ð’Ð«Ð’ÐžÐ” Ð£ÐÐ˜ÐšÐÐ›Ð¬ÐÐ«Ð¥ Ð§Ð˜Ð¡Ð•Ð› ///
 	/////////////////////////////
 	const int SIZE = 10;
 	int arr[SIZE];
@@ -34,9 +34,9 @@ void main()
 		}
 		if (counter > 1)
 		{
-			cout << "×èñëî " << arr[i] << " âñòðå÷àåòñÿ " << counter << " ðàç â ìàññèâå " << endl;
+			cout << "Ð§Ð¸ÑÐ»Ð¾ " << arr[i] << " Ð²ÑÑ‚Ñ€ÐµÑ‡Ð°ÐµÑ‚ÑÑ " << counter << " Ñ€Ð°Ð· Ð² Ð¼Ð°ÑÑÐ¸Ð²Ðµ " << endl;
 		}
-		else cout << "×èñëî " << arr[i] << " íå ïîâòîðÿåòñÿ â ìàññèâå" << endl;
+		else cout << "Ð§Ð¸ÑÐ»Ð¾ " << arr[i] << " Ð½Ðµ Ð¿Ð¾Ð²Ñ‚Ð¾Ñ€ÑÐµÑ‚ÑÑ Ð² Ð¼Ð°ÑÑÐ¸Ð²Ðµ" << endl;
 		counter = 0;
 	}
 }
